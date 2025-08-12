@@ -7,7 +7,7 @@ Main file named as 'pmr\_main.m'. Only the following specifications are required
 - Damping factor of the resonant modes (xi)
 - The desired real part of the smallest pole of the closed-loop system (sig)
 
-Consider an example of a PMR design with m = 3, xi = 0, sig = 100 where the following output voltage response is obtained:
+Consider an example of a PMR design with m = 3, xi = 0, sig = 100, where the following output voltage response is obtained:
 
 <img width="1920" height="926" alt="robust_PMR_design_m3" src="https://github.com/user-attachments/assets/6f2442d6-dea3-455e-ab15-228feabf83f4" />
 
