@@ -4,19 +4,21 @@ A code to compute robust proportional-multiple-resonant (PMR) and current feedba
 
 Consider a closed-loop in the form
 
+<img width="898" height="276" alt="pmr_closed_loop" src="https://github.com/user-attachments/assets/1cb626d1-af1d-46f6-9cc8-a0227947a565"/>
+
 being PMR a controller with transfer function
-$$
-C(s) = \frac{u_v(s)}{e(s)} = k_{e} +\sum_{i=1,3,\dots}^{h}\frac{k_{{2i-1}} +k_{{2i}}s}{s^{2} +2\xi_{i}\omega_{r_i} s +\omega_{r_i}^{2}}
-$$
+
+$$C(s) = \frac{u_v(s)}{e(s)} = k_{e} +\sum_{i=1,3,\dots}^{h}\frac{k_{{2i-1}} +k_{{2i}}s}{s^{2} +2\xi_{i}\omega_{r_i} s +\omega_{r_i}^{2}}$$
+
 where $k_{e}$, $k_{{2i-1}}$, and $k_{{2i}}$ are gains to be determined and $\xi_{i}$ is the damping factor of the $i$-th resonant mode, for $i = 1,3,\dots,h$.
 
-The proposed control-law can be writen as
-$$
-u(t) = Kx_{a}(t) +k_{e}r(t)
-$$
-where $x_{a}(t) = [x'(t)\; x_{r}'(t)]' \in \mathbb{R}^{2+2h}$ is the augmented state and
+The control-law shown can be rewritten as
 
-$$K = [k_{c}\; -k_{e}\quad k_{1}\quad k_{2}\quad \cdots\quad k_{2h-1}\quad k_{2h}].$$
+$$u(t) = Kx_{a}(t) +k_{e}r(t)$$
+
+where $x_{a}(t) = [x'(t)\ x_{r}'(t)]' \in \mathbb{R}^{2+2h}$ is the augmented state and
+
+$$K = [k_{c}\ -k_{e}\quad k_{1}\quad k_{2}\quad \cdots\quad k_{2h-1}\quad k_{2h}].$$
 
 ##
 
