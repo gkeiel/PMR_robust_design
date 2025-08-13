@@ -12,7 +12,7 @@ $$C(s) = \frac{u_v(s)}{e(s)} = k_{e} +\sum_{i=1,3,\dots}^{h}\frac{k_{{2i-1}} +k_
 
 where $k_{e}$, $k_{{2i-1}}$, and $k_{{2i}}$ are gains to be determined and $\xi_{i}$ is the damping factor of the $i$-th resonant mode, for $i = 1,3,\dots,h$.
 
-The control-law shown can be rewritten as
+The control law shown can be rewritten as
 
 $$u(t) = Kx_{a}(t) +k_{e}r(t)$$
 
