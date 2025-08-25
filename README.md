@@ -4,7 +4,9 @@ A code to compute robust proportional-multiple-resonant (PMR) and current feedba
 
 Consider a closed-loop in the form
 
-<img width="898" height="276" alt="pmr_closed_loop" src="https://github.com/user-attachments/assets/1cb626d1-af1d-46f6-9cc8-a0227947a565"/>
+<div align="center">
+<img width="769" height="236" alt="voltage_regulator_closed_loop" src="https://github.com/user-attachments/assets/23107e33-0cbd-4483-be62-2840eb0f80d0" />
+</div>
 
 being PMR a controller with transfer function
 
